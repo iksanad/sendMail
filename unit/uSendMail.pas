@@ -352,9 +352,8 @@ begin
   AttachmentList := TStringList.Create;
   sendMail.Height := 750;
   bCloseSettings.Left := 22;
-//  xSMTP.Text := 'smtp.gmail.com';
-//  xSMTP.Text := 'smtp.mail.surya-artha.com';
-  xSMTP.Text := 'mail.surya-artha.com';
+  xSMTP.Text := 'smtp.gmail.com';
+//  xSMTP.Text := 'mail.surya-artha.com';
 //  xPort.Text := '587';
   xPort.Text := '465';
   qSetup.Open;
